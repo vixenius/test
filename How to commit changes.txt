@@ -1,0 +1,13 @@
+git commit
+
+powershell windows will pop up
+
+It seems like you’re in the middle of committing changes using Git in PowerShell, but you’re stuck at the commit message step. Here’s how you can proceed:
+
+Write your commit message in the text editor that’s open. This message should be a brief summary of the changes you’ve made. For example, you could write “Initial commit of Hello world.py”.
+
+Once you’ve written your commit message, you need to save and close the file. If you’re using Vim as your text editor (which it looks like you might be, given the -- INSERT -- at the bottom), you can do this by pressing Esc to exit insert mode, then typing :wq and pressing Enter. This writes the file and quits the editor.
+
+After closing the text editor, the commit should be made and you can confirm this by typing git log in your PowerShell. This will show you the history of commits, with your most recent commit at the top.
+
+git add "FILENAME.PY"
